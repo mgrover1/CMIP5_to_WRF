@@ -3,8 +3,10 @@
 ### Calculates Climate Change Deltas Following the methodology from Trapp and Hoogewind (2016)
 
 ![Figure1_Trapp_Hoogewind](/Figures/Equations/Climo_Delta_Equation.PNG)
+Figure 1 from Trapp and Hoogewind (2016)
 
 ![Figure2_Trapp_Hoogewind](/Figures/Equations/Climo_Delta_Equation2.PNG)
+Figure 2 from Trapp and Hoogewind (2016)
 
 ### CMIP5 Models Used - Downloaded from [CMIP5 Data Archive](https://esgf-node.llnl.gov/projects/cmip5/)
 
