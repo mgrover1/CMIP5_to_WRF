@@ -6,7 +6,7 @@
 
 ![Figure2_Trapp_Hoogewind](/Figures/Equations/Climo_Delta_Equation2.PNG)
 
-### CMIP5 Models Used - Downloaded from ![CMIP5 Data Archive](https://esgf-node.llnl.gov/projects/cmip5/)
+### CMIP5 Models Used - Downloaded from [CMIP5 Data Archive](https://esgf-node.llnl.gov/projects/cmip5/)
 
 - MIROC5
 - GFDL
