@@ -1,6 +1,6 @@
 # CMIP5_to_WRF
 
-### Calculates Climate Change Deltas Following the methodology from Trapp and Hoogewind (2016)
+### Calculates Climate Change Deltas Following the methodology from [Trapp and Hoogewind (2016)](https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-15-0623.1)
 
 ![Figure1_Trapp_Hoogewind](/Figures/Equations/Climo_Delta_Equation.PNG)
 Figure 1 from Trapp and Hoogewind (2016)
