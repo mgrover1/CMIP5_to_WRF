@@ -15,17 +15,17 @@
 ### Overall Workflow
 - Calculate Climate Change Deltas
     - Notebooks Used
-        - 3D Atmos
-        - 2D Atmos
-        - Surface
+        - [3D Atmos](/Notebooks/3D-Vars.ipynb)   
+        - [2D Atmos](/Notebooks/2D-Vars.ipynb)
+        - [Surface](/Notebooks/Surface_Variables.ipynb)
 
 - Add to NAM fields
     - Notebook Used
-        - Write to Grib
+        - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
  
 - Export to GRIB file to be used by WRF
     - Notebook Used
-        - Write to Grib
+        - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
 
 ### Climate Change Delta Variables
 - 3D Atmos
