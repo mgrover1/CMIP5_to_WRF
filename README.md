@@ -8,6 +8,9 @@ Figure 1 from Trapp and Hoogewind (2016)
 ![Figure2_Trapp_Hoogewind](/Figures/Equations/Climo_Delta_Equation2.PNG)
 Figure 2 from Trapp and Hoogewind (2016)
 
+![Summary Climate Delta](/Figures/Equations/Summary_Climate_Delta.png)
+Summary of Climate Delta Calculation - this process is followed for all variables listed below
+
 ### CMIP5 Models Used - Downloaded from [CMIP5 Data Archive](https://esgf-node.llnl.gov/projects/cmip5/)
 
 - MIROC5
