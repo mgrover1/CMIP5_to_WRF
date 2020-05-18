@@ -47,13 +47,12 @@ Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIRO
     - VA (V-Component of Wind at Isobaric Levels)
     - TA (Temperature of Atmosphere at Isobaric Levels)
     - ZG (Geopotential Heights at Isobaric Levels)
-    - HUR (Relative Humidity at Isobaric Levels)
+    - HUS (Specific Humidity at Isobaric Levels)
 
 - 2-D
     - UAS (U-Component of Wind at 10m Above Surface)
     - VAS (V-Component of Wind at 10m Above Surface)
     - TAS (Temperature of Wind at 2m Above Surface)
-    - HURS (Relative Humidity at 2m Above Surface)
     - HUSS (Specific Humidity at 2m Above Surface)
     - PS (Pressure at Surface)
     - PSL (Mean Sea-Level Pressure at Surface)
