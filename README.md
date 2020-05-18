@@ -17,17 +17,26 @@ Summary of Climate Delta Calculation - this process is followed for all variable
 - GFDL
 - NCAR CCSM4
 
+All hourly data are downloaded and stored in the following directory on Keeling ```/data/meso/a/mgrover4/```
+with directories using naming convention ```model_6hour```
+
+Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIROC, GFDL, or NCAR
+
 ### Overall Workflow
+
+- (Optional) Download CMIP data from esgf
+    - See shell scripts within the data directories
+    - Data for May and March are already included
+
 - Calculate Climate Change Deltas
     - Notebooks Used
-        - [3D Atmos](/Notebooks/3D-Vars.ipynb)   
-        - [2D Atmos](/Notebooks/2D-Vars.ipynb)
-        - [Surface](/Notebooks/Surface_Variables.ipynb)
+        - [Atmos Deltas](/Notebooks/Atmos_Deltas.ipynb)   
+        - [Soil Deltas](/Notebooks/Soil_Deltas.ipynb)
 
 - Add to NAM fields
     - Notebook Used
         - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
- 
+
 - Export to GRIB file to be used by WRF
     - Notebook Used
         - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
@@ -39,7 +48,7 @@ Summary of Climate Delta Calculation - this process is followed for all variable
     - TA (Temperature of Atmosphere at Isobaric Levels)
     - ZG (Geopotential Heights at Isobaric Levels)
     - HUR (Relative Humidity at Isobaric Levels)
-    
+
 - 2-D
     - UAS (U-Component of Wind at 10m Above Surface)
     - VAS (V-Component of Wind at 10m Above Surface)
