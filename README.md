@@ -1,4 +1,4 @@
-# CMIP5_to_WRF
+# Dynamical Downscaling Using Pseudo Global Warming Method: A Case Study"
 
 ### Calculates Climate Change Deltas Following the methodology from [Trapp and Hoogewind (2016)](https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-15-0623.1)
 
@@ -30,10 +30,11 @@ Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIRO
 
 - Calculate Climate Change Deltas
     - Notebooks Used
-        - [Atmos Deltas](/Notebooks/Atmos_Deltas.ipynb)   
+        - [Atmos Deltas](/Notebooks/Atmos_Deltas.ipynb)
         - [Soil Deltas](/Notebooks/Soil_Deltas.ipynb)
+    - Notebooks can be found on Keeling in ```/data/keeling/a/mgrover4/b/CMIP5_to_WRF/Notebooks/```
 
-- Add to NAM fields
+- Add Climate Deltas to NAM fields
     - Notebook Used
         - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
 
@@ -42,14 +43,13 @@ Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIRO
         - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
 
 ### Climate Change Delta Variables
-- 3D Atmos
+- 3D Atmos (6 hourly, linearly interpolated to 3 hourly)
     - UA (U-Component of Wind at Isobaric Levels)
     - VA (V-Component of Wind at Isobaric Levels)
     - TA (Temperature of Atmosphere at Isobaric Levels)
-    - ZG (Geopotential Heights at Isobaric Levels)
     - HUS (Specific Humidity at Isobaric Levels)
 
-- 2-D
+- 2-D (Most data 3 hourly, some 6 hourly data were interpolated to 3 hourly)
     - UAS (U-Component of Wind at 10m Above Surface)
     - VAS (V-Component of Wind at 10m Above Surface)
     - TAS (Temperature of Wind at 2m Above Surface)
@@ -58,6 +58,6 @@ Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIRO
     - PSL (Mean Sea-Level Pressure at Surface)
     - TS (Temperature at Surface (Skin Temperature))
 
-- Soil/Surface
+- Soil/Surface (Monthly data)
     - TSL (Temperature at Soil Levels) - Land Mask Added
     - MRLSL (Specific Humidity at Soil Levels) - Land Mask Added
