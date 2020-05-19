@@ -36,11 +36,11 @@ Monthly data are stored in ```/data/jtrapp/a/jtrapp/CMIP5``` in directories MIRO
 
 - Add Climate Deltas to NAM fields
     - Notebook Used
-        - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
+        - [Write to Grib](/Notebooks/Write_Modify_NAM_Fields.ipynb)
 
 - Export to GRIB file to be used by WRF
     - Notebook Used
-        - [Write to Grib](/Notebooks/Write_to_Grib.ipynb)
+        - [Write to Grib](/Notebooks/Write_Modify_NAM_Fields.ipynb)
 
 ### Climate Change Delta Variables
 - 3D Atmos (6 hourly, linearly interpolated to 3 hourly)
